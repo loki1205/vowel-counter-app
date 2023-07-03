@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.content-box > .k-input-inner{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.content-box{
+    margin: 10px 0px;
+}
+
+.reset-btn{
+    border: none;
+    margin-right: 20px;
+    padding: 5px 10px;
+    background-color:rgb(220, 0, 0);
+    color: white;
+    border-radius: 4px;
+}
+
+.count-btn{
+    border: none;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color:rgb(0, 0, 219);
+    color: white;
+    border-radius: 4px;
+}
+
+button{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+    .wrapper{
+        width: 300px !important;
+    }
+  }
